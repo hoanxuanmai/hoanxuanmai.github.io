@@ -1077,6 +1077,45 @@ button,input,select,textarea,label {
         display: none
     }
 }
+.hero-inner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    z-index: -1;
+}
+.anime-element {
+    opacity: 0.2;
+}
+
+.sticky header {
+    position: sticky;
+    top: 0px;
+    background: linear-gradient(to left top, #0270D7, rgb(2 215 160));
+    z-index: 9999;
+    box-shadow: 0px 3px 15px #0270d7, 0px 3px 7px #027007;
+}
+header .hero-title{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.d-sticky-avatar {
+    display: none;
+}
+.sticky .d-sticky-avatar {
+    display: block;
+}
+.sticky .d-sticky-avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
 
 @media (min-width: 641px) {
     /*.hero {*/
@@ -1084,18 +1123,6 @@ button,input,select,textarea,label {
         /*padding-top: 64px;*/
         /*padding-bottom: 88px*/
     /*}*/
-
-    .hero-inner {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        justify-content: space-between;
-        align-items: center
-    }
-    .hero-inner > *{
-        opacity: 0.2;
-    }
 
     .hero-copy {
         padding-right: 64px;

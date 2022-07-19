@@ -11,14 +11,22 @@
     <title>Mai Xuân Hoàn</title>
 </head>
 <body>
-<header class="mt-5">
+<div class="container">
+    <div class="avatar">
+        <img src="https://avatars.githubusercontent.com/u/47692574?v=4" alt="Mai Xuân Hoàn">
+    </div>
+    <div id="top-sticky" style="height: 10px"></div>
+</div>
+<header >
     <div class="container">
-        <div class="avatar">
-            <img src="https://avatars.githubusercontent.com/u/47692574?v=4" alt="Mai Xuân Hoàn">
-        </div>
-        <div class="text-center m-5">
-            <h1 class="hero-title mt-0">Mai Xuân Hoàn</h1>
-            <p class="hero-paragraph">Fulstack Developer</p>
+        <div class="row align-items-center d-sticky">
+            <div class="col-auto d-sticky-avatar">
+                <img src="https://avatars.githubusercontent.com/u/47692574?v=4" alt="Mai Xuân Hoàn">
+            </div>
+            <div class="col text-center">
+                <h1 class="hero-title">Mai Xuân Hoàn</h1>
+            </div>
+
         </div>
     </div>
 </header>
@@ -42,6 +50,7 @@
     </div>
     <section class="features section">
         <div class="container">
+            <h4 class="hero-paragraph text-center">Full-Stack Developer</h4>
             <div class="features-inner section-inner has-bottom-divider">
                 <div class="features-wrap">
                     <div class="feature text-center is-revealing" style="visibility: visible;">
@@ -108,7 +117,7 @@
     <div class="container">
         <div class="text-center m-5">
             <h1 class="hero-title mt-0">Mai Xuân Hoàn</h1>
-            <p class="hero-paragraph">Fulstack Developer</p>
+            <p class="hero-paragraph">Full-stack Developer</p>
         </div>
     </div>
 </footer>
@@ -146,8 +155,18 @@
 
     window.els = [];
     document.querySelectorAll('.hero-figure-box').forEach(function(el, ind){
-        window.els[ind] = new Animation(el)
+        new Animation(el);
     })
+    var observer = new IntersectionObserver(function(entries) {
+        // no intersection with screen
+        if(entries[0].intersectionRatio === 0)
+            document.querySelector("body").classList.add("sticky");
+        // fully intersects with screen
+        else if(entries[0].intersectionRatio === 1)
+            document.querySelector("body").classList.remove("sticky");
+    }, { threshold: [0,1] });
+
+    observer.observe(document.querySelector("#top-sticky"));
 
 </script>
 </body>
