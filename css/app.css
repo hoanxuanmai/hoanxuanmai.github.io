@@ -1165,8 +1165,7 @@ header .hero-title{
 
 .feature {
     padding: 16px 32px;
-    width: 380px;
-    max-width: 380px;
+    width: 100%;
     flex-grow: 1
 }
 
