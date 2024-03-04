@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# HoanXuanMai - Full-Stack Developer 🚀
 
-You can use the [editor on GitHub](https://github.com/hoanxuanmai/hoanxuanmai.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+## Get in Touch:
+- 📧 Email: hoanxuanmai@gmail.com
+- 💼 LinkedIn: [linkedin.com/in/hoanxuanmai](https://www.linkedin.com/in/hoanxuanmai/)
+- 🌐 Website: [hoanxuanmai.github.io](https://hoanxuanmai.github.io/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Career Objective:
+Hey there! I'm Mai Xuân Hoàn, a dynamic full-stack web developer with over 6 years of experience. I thrive on creativity and love exploring the endless possibilities in the world of technology.
 
-### Markdown
+## Skills and Experience:
+- **Web Wizardry:** Crafting web applications from the ground up is my jam, and I've been doing it for over 6 years. I'm fluent in languages like PHP, JavaScript, and TypeScript.
+- **Payment:** Need seamless online payments? I've got you covered! Integrating and processing payments through Stripe and Paypal is second nature to me.
+- **Project Maestro:** I'm a pro at project management, from coordinating teams to ensuring deadlines are met and the quality of work is top-notch.
+- **Deployment Dynamo:** Launching web projects into the digital stratosphere is my specialty. I can set up hosting systems and deploy projects across various environments like a champ.
+- **Server Sensei:** Apache, Nginx, MySQL, MongoDB, Redis - you name it, I've conquered it. Managing servers and databases to keep applications running smoothly is my bread and butter.
+- **Languages:** PHP, JavaScript, TypeScript
+- **Frameworks:** Laravel, Yii, Magento (backend); Vue.js, React.js, Angular.js (frontend)
+- **Databases:** MySQL, MongoDB, Redis
+- **Tools of the Trade:** Composer, NPM, GIT
+- **Performance Perfectionist:** I'm all about optimizing application performance and speed using the latest techniques and technologies.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Published Packages:
+- **[hxm/media-encrypt]([https://github.com/hoanxuanmai/media-encrypt]):** Encrypt and decrypt multimedia files with ease.
+- **[hxm/extrafield]([https://github.com/hoanxuanmai/extrafield]):** Manage additional data fields in web applications effortlessly.
+- **[hxm/2fa]([https://github.com/hoanxuanmai/2fa]):** Secure your web applications with two-factor authentication.
+- **[hxm/enum]([https://github.com/hoanxuanmai/Enum]):** Simplify managing enumerated value lists in PHP.
+- **[hxm/bridge]([https://github.com/hoanxuanmai/bridge]):** Seamlessly bridge web applications with different systems for enhanced functionality.
 
-```markdown
-Syntax highlighted code block
+## Fields of Expertise:
+- Real Estate Webshops 🏡
+- ERP (Enterprise Resource Planning) 📊
+- Logistics 🚚
+- Office Management 📝
+- Hospital Management 🏥
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hoanxuanmai/hoanxuanmai.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Summary:
+HoanXuanMai isn't just another developer - I'm a force to be reckoned with! With a passion for innovation and an insatiable thirst for knowledge, I'm ready to take on any challenge and elevate your projects to new heights. Let's create something amazing together!
