@@ -1,0 +1,5 @@
+@media print {
+    .c-social-buttons {
+        display: none !important;
+    }
+}
