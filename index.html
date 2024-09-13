@@ -20,7 +20,8 @@
     <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Main CSS -->
     <link href="/assets/main.css" rel="stylesheet">
-  <script type="module" crossorigin src="/assets/index-BML6ddWa.js?_v=1"></script>
+    <link href="/assets/print.css" media="print" rel="stylesheet"/>
+  <script type="module" crossorigin src="/assets/index-ColIBPC6.js"></script>
   <link rel="stylesheet" crossorigin href="/assets/index-B_xYevSz.css">
 </head>
 <body x-data="myData">
@@ -73,6 +74,18 @@
                                                         Full-Stack Web Developer
                                                     </span>
                                         </h2>
+                                        <div class="line-contacts" style="margin-top: 30px;">
+                                            <template x-for="contact in lineContacts">
+                                                <div style="display: flex;">
+                                                    <div class="t-social-button c-social-button" style="color: #e0a80d;">
+                                                        <i :class="contact.iconClass" class="in-view fa-lg"></i>
+                                                    </div>
+                                                    <div style="padding-left: 10px; font-size: 1.2rem; line-height: 2.7rem;">
+                                                        <span x-text="contact.name"></span>:<span style="margin-left: 10px;" x-text="contact.value"></span>
+                                                    </div>
+                                                </div>
+                                            </template>
+                                        </div>
                                     </div><!-- /c-brand -->
 
                                 </div><!-- /c-header__brand -->
@@ -421,28 +434,33 @@
 
                     <div class="o-grid">
                         <template x-for="package in packages">
-                            <div class="o-grid__col-xl-4  o-grid__col-sm-6">
-                                <div class="o-content">
-                                    <a :href="package.url" class="t-link-container"
-                                       target="_blank">
-                                        <div class="o-media  o-media--block in-view">
-                                            <div class="o-media__figure">
-                                                <div class="c-profile__icon">
-                                                    <i class="fa fa-github fa-lg in-view"></i>
+                            <template x-if="package.name != 'hoanxuanmai.github.io'">
+                                <div class=" o-grid__col-sm-6" >
+                                    <div class="o-content">
+                                        <a :href="package.html_url" class="t-link-container"
+                                           target="_blank">
+                                            <div class="o-media  o-media--block in-view">
+                                                <div class="o-media__figure">
+                                                    <div class="c-profile__icon">
+                                                        <i class="fa fa-github fa-lg in-view"></i>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="o-media__body  o-content__body">
-                                                <h3 class="t-link-container__item" x-text="package.name">
-                                                    ...
-                                                </h3>
-                                                <p x-text="package.description">
-                                                    . . .
-                                                </p>
-                                            </div>
-                                        </div><!-- /o-media -->
-                                    </a><!-- /t-link-container -->
-                                </div><!-- /o-content -->
-                            </div><!-- /o-grid__col -->
+                                                <div class="o-media__body  o-content__body">
+                                                    <h3 class="t-link-container__item" x-text="package.name">
+                                                        ...
+                                                    </h3>
+                                                    <p x-text="package.description">
+                                                        . . .
+                                                    </p>
+                                                    <p x-text="'- Last push at: ' + (new Date(package.pushed_at)).toLocaleDateString()">
+                                                        . . .
+                                                    </p>
+                                                </div>
+                                            </div><!-- /o-media -->
+                                        </a><!-- /t-link-container -->
+                                    </div><!-- /o-content -->
+                                </div><!-- /o-grid__col -->
+                            </template>
                         </template>
 
                     </div><!-- /o-grid -->
@@ -538,7 +556,18 @@
                                 </div><!-- /c-brand -->
 
                             </div><!-- /c-footer__brand -->
-
+                            <div class="line-contacts" style="margin-top: 30px;">
+                                <template x-for="contact in lineContacts">
+                                    <div style="display: flex;">
+                                        <div class="t-social-button c-social-button" style="color: #e0a80d;">
+                                            <i :class="contact.iconClass" class="in-view fa-lg"></i>
+                                        </div>
+                                        <div style="padding-left: 10px; font-size: 1.2rem; line-height: 2.7rem;">
+                                            <span x-text="contact.name"></span>:<span style="margin-left: 10px;" x-text="contact.value"></span>
+                                        </div>
+                                    </div>
+                                </template>
+                            </div>
                             <ul class="c-footer__social-buttons  c-social-buttons  o-content__body">
                                 <template x-for="contact in contacts">
                                     <li class="a-header in-view">
@@ -564,6 +593,13 @@
 
 
 </div>
+<style>
+    @media screen {
+        .line-contacts {
+            display: none;
+        }
+    }
+</style>
 
 </body>
 </html>
