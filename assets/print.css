@@ -7,4 +7,8 @@
         clear: both;
         page-break-after: always;
     }
+
+    .switch-mode-container {
+        display: none;
+    }
 }
