@@ -1,0 +1,97 @@
+{
+    "title": "Projects",
+    "description": "Here is a list of projects I have been involved in full time since I started. In addition, I have been involved in supporting, optimizing performance and maintaining many other projects in a support capacity.",
+    "data": [
+        {
+            "name": "Beestorm",
+            "url": "",
+            "stack": "PHP Core, Yii-1, Jquery",
+            "position": "Fullstack",
+            "description": "A project about organizing virtual marathon events. users register an account and register for races. After completing the required milestones, they will submit to the system for confirmation and receive medals and items according to the event."
+        },
+        {
+            "name": "Market, Akaratmisr",
+            "url": "",
+            "stack": "Codeiniter, Jquery",
+            "position": "Fullstack",
+            "description": "E-commerce project for Egyptian users. The system includes B2C and C2C. Multi-functional management system for customers, vendors, suppliers, and management team."
+        },
+        {
+            "name": "Appavan",
+            "url": "",
+            "stack": "Laravel, Javascript, Google Map",
+            "position": "Fullstack",
+            "description": "A project about tendering in the field of transportation in the UK. You need to move a house, move a large amount of equipment, you will post your requirements on the system. Transport companies with full size \"vans\" will bid on the cost of doing it. And find out who is selected."
+        },
+        {
+            "name": "Zime",
+            "url": "",
+            "stack": "Laravel, SocketIo, Javascript, Jquery, WebRTC",
+            "position": "Fullstack",
+            "description": "A management system for clinics and private hospitals. The system synchronizes data about patients, medical records, and results. Combined with additional functions to support communication and remote connection with patients, to improve the quality of medical examination and treatment."
+        },
+        {
+            "name": "Bonjoure Oscar",
+            "url": "",
+            "stack": "Laravel, Vuejs, APIMO",
+            "position": "Fullstack",
+            "description": "A system to introduce real estate projects and properties. Make connections, create contracts for buying, selling, and leasing properties. Automatically synchronize data with APIMO, a French real estate management channel."
+        },
+        {
+            "name": "Vietusa",
+            "url": "",
+            "stack": "Laravel, vuejs",
+            "position": "Fullstack",
+            "description": "A social project. Provides classified ads and posting functions based on geographic location. The website has its own advertising system and is posted at a cost. In addition, it also provides media sharing functions and medical knowledge channels. It is part of the Zime family."
+        },
+        {
+            "name": "Esprit Dailleurs",
+            "url": "",
+            "stack": "Laravel, Vuejs, APIMO",
+            "position": "Fullstack",
+            "description": "A system to introduce real estate properties. Introduce users to villas and apartments for rent. Provide a booking system on the site itself. In addition, data is synchronized with other booking management channels such as booking.com, bed24..."
+        },
+        {
+            "name": "Bienvenue | Choopy’s Cupcakes & Coffee Shop",
+            "url": "",
+            "stack": "Craft CMS, Twig",
+            "position": "Fullstack",
+            "description": "An online store for the bakery industry. Provides daily menus managed by the restaurant itself. Supports cake ordering and cake distribution for events."
+        },
+        {
+            "name": "TROUVE TON ALTERNANCE",
+            "url": "",
+            "stack": "Laravel, Javascript, Jquery",
+            "position": "Fullstack",
+            "description": "An online job platform to connect employers and job seekers. Share profiles between subjects after calculating the appropriate information between the two parties."
+        },
+        {
+            "name": "Club Francais du Vin",
+            "url": "",
+            "stack": "Magento, AlpineJs, UPS",
+            "position": "Fullstack",
+            "description": "E-commerce platform specializing in providing and retailing wine products. Using magento to build the backend system."
+        },
+        {
+            "name": "PVR",
+            "url": "",
+            "stack": "Nodejs, Express, Reactjs, Stripe, Adobe Sign, Swikly, Trustiway",
+            "position": "Fullstack",
+            "description": "Project for renting luxury apartments and villas. Reservations are made months in advance with required procedures."
+        },
+        {
+            "name": "Les box de vins MyVitibox",
+            "url": "",
+            "stack": "Magento, Knockjs, UPS",
+            "position": "",
+            "description": "An e-commerce project. Providing boxes, gifts on wine products. Connecting with international shipping and receiving units"
+        },
+        {
+            "name": "MyWord",
+            "url": "",
+            "stack": "Nodejs, NestJs, Mongodb",
+            "position": "Backend",
+            "description": "A project on vocabulary management for English learners. The system uses connections to Cambridge, Google Translate, Youtube... to create reading cards for users to use individually."
+        }
+    ]
+}

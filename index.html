@@ -21,8 +21,8 @@
     <!-- Main CSS -->
     <link href="/assets/main.css" rel="stylesheet">
     <link href="/assets/print.css" media="print" rel="stylesheet"/>
-  <script type="module" crossorigin src="/assets/index-DML5HdsJ.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-q19iZY0j.css">
+  <script type="module" crossorigin src="/assets/index-DEUp9Q96.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-C3vMS00K.css">
 </head>
 <body x-data="myData" class="theme-light">
     <div class="switch-mode-container">
@@ -392,9 +392,9 @@
                                             <h3><span x-text="skill.name" ></span> <small style="text-transform: lowercase;">(<span x-text ="skill.years" ></span> <span x-text ="skill.years > 1 ? 'years' : 'year'" ></span>)</small></h3>
                                         </div>
                                     </div>
-                                    <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                    <div class="c-progress-bar  o-content__body u-mt-text">
                                         <div :data-percent="skill.value"
-                                             class="a-progress-bar  c-progress-bar__filler  t-primary-bg in-view"
+                                             class="a-progress-bar  c-progress-bar__filler in-view"
                                         ></div>
                                     </div>
                                 </div>
@@ -409,6 +409,67 @@
         </div><!-- /o-container -->
 
     </section><!-- /o-section -->
+
+<section class="o-section  t-section  ">
+
+    <div class="o-section__header-bg  t-section__header"></div>
+    <div class="o-section__content-bg  t-section__content"></div>
+
+    <div class="o-container">
+        <div class="o-section__container">
+
+            <header class="o-section__header  t-section__header">
+                <div class="o-content">
+                    <h2 class="o-section__heading">
+                        <span x-text="projects.title"></span>
+                    </h2>
+                    <div class="o-content__body  o-section__description">
+                        <span x-text="projects.description"></span>
+                    </div>
+                </div>
+            </header><!-- /o-section__header -->
+
+            <div class="o-section__content  t-section__content  u-pb-0">
+
+                <div class="a-experience-timeline  c-timeline  t-border-color in-view">
+                    <template x-for="project in projects.data">
+
+                        <div class="c-timeline__item">
+                            <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                            <div class="o-content">
+                                <div class="o-grid">
+                                    <div class="o-grid__col-md-5">
+                                        <!-- <div class="c-work__timeframe">
+                                            2015 – Present
+                                        </div> -->
+                                        <h3 class="c-work__heading">
+                                            <span x-text="project.name"></span>
+                                        </h3>
+                                        <h4 class="c-work__title">
+                                            <span x-text="project.stack"></span>
+                                        </h4>
+                                        <div class="c-work__location">
+                                            <span x-text="project.position"></span>
+                                        </div>
+                                    </div>
+                                    <div class="o-grid__col-md-7">
+                                        <p>
+                                            <span x-text="project.description"></span>
+                                        </p>
+                                    </div>
+                                </div><!-- /o-grid -->
+                            </div><!-- /o-content -->
+                        </div><!-- /c-timeline__item -->
+                    </template>
+
+                </div><!-- /c-timeline -->
+
+            </div><!-- /o-section__content -->
+
+        </div><!-- /o-section__container -->
+    </div><!-- /o-container -->
+
+</section><!-- /o-section -->
 
     <section class="o-section  t-section  pagebreak">
 
