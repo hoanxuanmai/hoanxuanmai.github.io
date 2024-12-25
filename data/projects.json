@@ -3,44 +3,44 @@
     "description": "Here is a list of projects I have been involved in full time since I started. In addition, I have been involved in supporting, optimizing performance and maintaining many other projects in a support capacity.",
     "data": [
         {
-            "name": "Beestorm",
+            "name": "MyWords",
             "url": "",
-            "stack": "PHP Core, Yii-1, Jquery",
-            "position": "Fullstack",
-            "description": "A project about organizing virtual marathon events. users register an account and register for races. After completing the required milestones, they will submit to the system for confirmation and receive medals and items according to the event."
+            "stack": "Nodejs, NestJs, Mongodb",
+            "position": "Backend",
+            "description": "A project on vocabulary management for English learners. The system uses connections to Cambridge, Google Translate, Youtube... to create reading cards for users to use individually."
         },
         {
-            "name": "Market, Akaratmisr",
+            "name": "Softdigital",
             "url": "",
-            "stack": "Codeiniter, Jquery",
+            "stack": "Laravel, Mysql, Redis, REST, Vuejs, Apis",
             "position": "Fullstack",
-            "description": "E-commerce project for Egyptian users. The system includes B2C and C2C. Multi-functional management system for customers, vendors, suppliers, and management team."
+            "description": "an ORM project for insurance companies"
         },
         {
-            "name": "Appavan",
+            "name": "Les box de vins MyVitibox",
             "url": "",
-            "stack": "Laravel, Javascript, Google Map",
+            "stack": "Magento, Mysql, Knockjs, UPS, Payment (new module)",
             "position": "Fullstack",
-            "description": "A project about tendering in the field of transportation in the UK. You need to move a house, move a large amount of equipment, you will post your requirements on the system. Transport companies with full size \"vans\" will bid on the cost of doing it. And find out who is selected."
+            "description": "An e-commerce project. Providing boxes, gifts on wine products. Connecting with international shipping and receiving units"
         },
         {
-            "name": "Zime",
+            "name": "PVR",
             "url": "",
-            "stack": "Laravel, SocketIo, Javascript, Jquery, WebRTC",
+            "stack": "Nodejs, Express, Sequelize, Apolo, Mysql, GraphQl, REST, Reactjs, Stripe, Adobe Sign, Swikly, Trustiway",
             "position": "Fullstack",
-            "description": "A management system for clinics and private hospitals. The system synchronizes data about patients, medical records, and results. Combined with additional functions to support communication and remote connection with patients, to improve the quality of medical examination and treatment."
+            "description": "Project for renting luxury apartments and villas. Reservations are made months in advance with required procedures."
         },
         {
-            "name": "Bonjoure Oscar",
+            "name": "Club Francais du Vin",
             "url": "",
-            "stack": "Laravel, Vuejs, APIMO",
+            "stack": "Magento, Mysql, AlpineJs, UPS, Payment (new module)",
             "position": "Fullstack",
-            "description": "A system to introduce real estate projects and properties. Make connections, create contracts for buying, selling, and leasing properties. Automatically synchronize data with APIMO, a French real estate management channel."
+            "description": "E-commerce platform specializing in providing and retailing wine products. Using magento to build the backend system."
         },
         {
             "name": "Vietusa",
             "url": "",
-            "stack": "Laravel, vuejs",
+            "stack": "Laravel, Mysql, Redis, SocketIo, Vuejs, Payments",
             "position": "Fullstack",
             "description": "A social project. Provides classified ads and posting functions based on geographic location. The website has its own advertising system and is posted at a cost. In addition, it also provides media sharing functions and medical knowledge channels. It is part of the Zime family."
         },
@@ -50,6 +50,20 @@
             "stack": "Laravel, Vuejs, APIMO",
             "position": "Fullstack",
             "description": "A system to introduce real estate properties. Introduce users to villas and apartments for rent. Provide a booking system on the site itself. In addition, data is synchronized with other booking management channels such as booking.com, bed24..."
+        },
+        {
+            "name": "Zime",
+            "url": "",
+            "stack": "Laravel, MySql, Redis, SocketIo, Javascript, Jquery, WebRTC",
+            "position": "Fullstack",
+            "description": "A management system for clinics and private hospitals. The system synchronizes data about patients, medical records, and results. Combined with additional functions to support communication and remote connection with patients, to improve the quality of medical examination and treatment."
+        },
+        {
+            "name": "Bonjoure Oscar",
+            "url": "",
+            "stack": "Laravel, Mysql, Redis, Vuejs, APIMO",
+            "position": "Fullstack",
+            "description": "A system to introduce real estate projects and properties. Make connections, create contracts for buying, selling, and leasing properties. Automatically synchronize data with APIMO, a French real estate management channel."
         },
         {
             "name": "Bienvenue | Choopy’s Cupcakes & Coffee Shop",
@@ -66,32 +80,25 @@
             "description": "An online job platform to connect employers and job seekers. Share profiles between subjects after calculating the appropriate information between the two parties."
         },
         {
-            "name": "Club Francais du Vin",
+            "name": "Appavan",
             "url": "",
-            "stack": "Magento, AlpineJs, UPS",
+            "stack": "Laravel, Javascript, Google Map, Payments (Paypal)",
             "position": "Fullstack",
-            "description": "E-commerce platform specializing in providing and retailing wine products. Using magento to build the backend system."
+            "description": "A project about tendering in the field of transportation in the UK. You need to move a house, move a large amount of equipment, you will post your requirements on the system. Transport companies with full size \"vans\" will bid on the cost of doing it. And find out who is selected."
         },
         {
-            "name": "PVR",
+            "name": "Beestorm",
             "url": "",
-            "stack": "Nodejs, Express, Reactjs, Stripe, Adobe Sign, Swikly, Trustiway",
+            "stack": "PHP Core, Yii-1, Mysql, Jquery, Payments (EGhl)",
             "position": "Fullstack",
-            "description": "Project for renting luxury apartments and villas. Reservations are made months in advance with required procedures."
+            "description": "A project about organizing virtual marathon events. users register an account and register for races. After completing the required milestones, they will submit to the system for confirmation and receive medals and items according to the event."
         },
         {
-            "name": "Les box de vins MyVitibox",
+            "name": "Market, Akaratmisr",
             "url": "",
-            "stack": "Magento, Knockjs, UPS",
-            "position": "",
-            "description": "An e-commerce project. Providing boxes, gifts on wine products. Connecting with international shipping and receiving units"
-        },
-        {
-            "name": "MyWord",
-            "url": "",
-            "stack": "Nodejs, NestJs, Mongodb",
-            "position": "Backend",
-            "description": "A project on vocabulary management for English learners. The system uses connections to Cambridge, Google Translate, Youtube... to create reading cards for users to use individually."
+            "stack": "Codeiniter, Memcache, MySql, Jquery, Payments (Paypal, Stripe)",
+            "position": "Fullstack",
+            "description": "E-commerce project for Egyptian users. The system includes B2C and C2C. Multi-functional management system for customers, vendors, suppliers, and management team."
         }
     ]
 }

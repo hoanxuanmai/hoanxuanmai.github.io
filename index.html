@@ -494,7 +494,7 @@
 
                     <div class="o-grid">
                         <template x-for="package in packages">
-                            <template x-if="package.name != 'hoanxuanmai.github.io'">
+                            <template x-if="!/hoanxuanmai/.test(package.name)">
                                 <div class=" o-grid__col-sm-6" >
                                     <div class="o-content">
                                         <a :href="package.html_url" class="t-link-container"
