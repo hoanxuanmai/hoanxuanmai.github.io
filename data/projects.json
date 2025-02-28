@@ -12,16 +12,16 @@
         {
             "name": "Softdigital",
             "url": "",
-            "stack": "Laravel, Mysql, Redis, REST, Vuejs, Apis",
+            "stack": "Laravel, Mysql, Redis, REST, Vuejs, Apis, Google Calendar, Bridge, Stripe",
             "position": "Fullstack",
-            "description": "an ORM project for insurance companies"
+            "description": "an ORM project for insurance companies. Develop and integrate modules to Google Calendar, Bridge..."
         },
         {
             "name": "Les box de vins MyVitibox",
             "url": "",
-            "stack": "Magento, Mysql, Knockjs, UPS, Payment (new module)",
+            "stack": "Magento, Mysql, Knockjs, UPS, Payment (new module), Stripe",
             "position": "Fullstack",
-            "description": "An e-commerce project. Providing boxes, gifts on wine products. Connecting with international shipping and receiving units"
+            "description": "An e-commerce project. Providing boxes, gifts on wine products. Connecting with international shipping and receiving units."
         },
         {
             "name": "PVR",
@@ -33,14 +33,14 @@
         {
             "name": "Club Francais du Vin",
             "url": "",
-            "stack": "Magento, Mysql, AlpineJs, UPS, Payment (new module)",
+            "stack": "Magento, Mysql, AlpineJs, UPS, Payment (new module), Stripe",
             "position": "Fullstack",
             "description": "E-commerce platform specializing in providing and retailing wine products. Using magento to build the backend system."
         },
         {
             "name": "Vietusa",
             "url": "",
-            "stack": "Laravel, Mysql, Redis, SocketIo, Vuejs, Payments",
+            "stack": "Laravel, Mysql, Redis, SocketIo, Vuejs, Payments, Paypal",
             "position": "Fullstack",
             "description": "A social project. Provides classified ads and posting functions based on geographic location. The website has its own advertising system and is posted at a cost. In addition, it also provides media sharing functions and medical knowledge channels. It is part of the Zime family."
         },
@@ -82,14 +82,14 @@
         {
             "name": "Appavan",
             "url": "",
-            "stack": "Laravel, Javascript, Google Map, Payments (Paypal)",
+            "stack": "Laravel, Javascript, Google Map, Payments (Paypal, Stripe)",
             "position": "Fullstack",
             "description": "A project about tendering in the field of transportation in the UK. You need to move a house, move a large amount of equipment, you will post your requirements on the system. Transport companies with full size \"vans\" will bid on the cost of doing it. And find out who is selected."
         },
         {
             "name": "Beestorm",
             "url": "",
-            "stack": "PHP Core, Yii-1, Mysql, Jquery, Payments (EGhl)",
+            "stack": "PHP Core, Yii-1, Mysql, Jquery, Payments (EGhl, Wallet)",
             "position": "Fullstack",
             "description": "A project about organizing virtual marathon events. users register an account and register for races. After completing the required milestones, they will submit to the system for confirmation and receive medals and items according to the event."
         },
